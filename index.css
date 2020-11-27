@@ -118,7 +118,10 @@ div img:hover {
     transform: scale(2);
     cursor: zoom-out;
 }
-
+.nousChoisir {
+    display: flex; 
+    justify-content: space-between; 
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
 
@@ -141,7 +144,7 @@ div img:hover {
     }
 
     nav.black ul {
-          background: #000;
+          background: rgb(255, 255, 255);
     }
 
     .showing {
